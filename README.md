@@ -1,19 +1,4 @@
-# New tensorrt package, easy to integrate many tasks
-- Easily implement producer-consumer models for various tasks and perform high-performance inference
-- No complex packaging, no coupling!
-
-# For the Yolo-Demo
 - Currently supports Yolo series 3/4/5/x/7/8
-- YoloV8-Segment is supported
-- 🚀 Pre-processing about 1ms
-- 🚀 Post-processing about 0.5ms
-![](bus.jpg)
-
-# Description
-- cpm.hpp Producer-consumer model
-    - For direct inference tasks, cpm.hpp can be turned into an automatic multi-batch producer-consumer model
-- infer.hpp A repackaging of tensorRT. Simple interface
-- yolo.hpp Wrapper for yolo tasks. Based on infer.hpp
 
 ### Inference flow of trt
 ### step1 Compile the model, e.g.
